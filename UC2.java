@@ -1,4 +1,4 @@
-public class UC1 {
+public class OOPSBannerApp {
     public static void main(String[] args) {
 
         // OOPS - Object Oriented Programming System
