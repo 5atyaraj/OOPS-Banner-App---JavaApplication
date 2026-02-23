@@ -18,13 +18,13 @@ public class OOPSBannerApp {
 
         // Populate each index using String.join()
 
-        lines[0] = String.join("  ", "   ***   ", "   ***   ", " ******  ", " ******  ");
-        lines[1] = String.join("  ", " **   ** ", " **   ** ", " **   ** ", " **      ");
+        lines[0] = String.join("  ", "   ***   ", "   ***   ", " ******  ", "  *****  ");
+        lines[1] = String.join("  ", " **   ** ", " **   ** ", " **   ** ", " **   ** ");
         lines[2] = String.join("  ", " **   ** ", " **   ** ", " **   ** ", " **      ");
         lines[3] = String.join("  ", " **   ** ", " **   ** ", " ******  ", "  ***    ");
         lines[4] = String.join("  ", " **   ** ", " **   ** ", " **      ", "      ** ");
         lines[5] = String.join("  ", " **   ** ", " **   ** ", " **      ", " **   ** ");
-        lines[6] = String.join("  ", "   ***   ", "   ***   ", " **      ", " ******  ");
+        lines[6] = String.join("  ", "   ***   ", "   ***   ", " **      ", "  *****  ");
 
         // Use enhanced for-loop to print banner
         for (String line : lines) {
