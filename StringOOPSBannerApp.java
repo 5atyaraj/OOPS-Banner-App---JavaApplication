@@ -1,0 +1,15 @@
+public class OOPSBannerApp {
+
+    public static void main(String[] args) {
+
+        // Hint: Use String.join(" ", ...) to join parts with spaces
+
+        System.out.println(String.join(" ", "   ***   ", "   ***   ", " *****  ", " ****** "));
+        System.out.println(String.join(" ", " **   ** ", " **   ** ", "**    **", "**      "));
+        System.out.println(String.join(" ", "**     **", "**     **", "**    **", " **     "));
+        System.out.println(String.join(" ", "**     **", "**     **", "******  ", "  ***** "));
+        System.out.println(String.join(" ", "**     **", "**     **", "**      ", "      **"));
+        System.out.println(String.join(" ", " **   ** ", " **   ** ", "**      ", "     ** "));
+        System.out.println(String.join(" ", "   ***   ", "   ***   ", "**      ", " ****** "));
+    }
+}
